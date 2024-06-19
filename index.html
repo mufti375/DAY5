@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title>First Website</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/xjvnnona",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "gray"
+      },
+      button: {
+        backgroundColor: "gray"
+      }
+    }
+  });
+</script>
+    </head>
+    <body>
+        <section class="navigation">
+            <h1 class="logo">LOGO</h1>
+            
+            <div class="navlinks">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="">Services</a>
+                <a href="">Contact Us</a>
+                <button>Sign up</button>
+            </div>
+        </section>
+        <section class="images">
+            <h1 class="Vacphotos">Vacation photos</h1>
+            <div class="photos">
+                   <img src="img-bg.jpg" alt="Photo">
+                      
+            </div>
+            <div class="photos-content">
+                <h1>Furahia Africa</h1>
+                <p>Enjoy your own</p>
+                <button>Call Now</button>
+
+            </div>           
+        </section>
+        <section class="search">
+            <input type="search" placeholder="search places" name="" id="">
+             <button>search places</button>
+        </section>
+        <section class="destination">
+            <h1>Top destinations</h1>
+
+            <div class="row">
+             <div class="column">
+             <img src="./pexels-asim-razan-343720.jpg" alt="">
+             <img src="./pexels-wildlittlethingsphoto-708440.jpg" alt="">
+            </div>
+             <div class="column">
+                <img src="./pexels-wildlittlethingsphoto-708440.jpg" alt="">
+                <img src="./pexels-asim-razan-343720.jpg" alt="">
+             </div>
+             <div class="column">
+                <img src="./pexels-asim-razan-343720.jpg" alt="">
+                <img src="./pexels-wildlittlethingsphoto-708440.jpg" alt="">
+             </div>  
+
+                
+
+            </div>
+
+        </section>
+    </body>       
+</HTML>
